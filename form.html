@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- Forms in html-->
+
+    <!--Special attributes for forms
+        method="GET"--default method and "POST"---in backend method
+        action=""
+        -->
+
+    <!-- type values
+        ------------
+           text
+           radio
+           tel
+           number
+           date
+           datetime
+           datetime-local
+           file
+           email
+           submit
+           -->
+    <center>
+        <img src="./image.jpeg">
+        </center>
+  
+        <center>
+     <center>
+        <form action="./result.html" method="get">
+        <fieldset style="width:800px;border-radius: 10px;">
+        <legend style="background-color: blue;color: white;">Appllicant details</legend>
+        <table cellspacing="20" cellpadding="0" width="800">
+        <tr>
+            <td><label for="name">Name<span style="color:red";>*</span></label></td>
+        <td><input type="text" id="name" name="FirstName" maxlength="20"></td>
+    <td><label for="fatherName">Father's/Guardian's Name<span style="color: red;">*</span></label>
+    </td>
+        <td><input type="text" id="fatherName" name="FatherName"></td>
+</tr>
+       <tr>
+  <td><label for="date">Date of birth<span style="color:red">*</span>
+
+     </label></td>
+        <td><input type="date" name="Date" id="date"></td>
+
+        <td><label for="">Gender<span style="color:red">*</span></label></td>
+      
+
+         <td><label for="female">Female:</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        </td>
+
+        <tr>
+            <td><label for="age">Age:</label></td>
+            <td><input type="text" id="age" name="Age"></td>
+        <td><label for="">Aadhar Number:</label></td>
+        <td><input type="text" id="Aadhar" maxlength=12 minlength=12 name="AadharNo"></td>
+
+        </tr>
+        <tr>
+
+
+        <td><label for="whatsapp">WhatsApp No<span style="color:red">*</span></label></td>
+        
+        <td><input type="tel" id="whatsapp" name="whatsapp"></td>
+    
+        <td><label for="email">E-mail Id<span style="color:red">*</span></label></td>
+        <td><input type="email" id="email" name="email"></td>
+        </tr>
+        <tr>
+
+        
+        <td><label for="file">Photo<span style="color:red";>*</span></label></td>
+       
+        <td><input type="file"  id="file" name="file" multiple accept=".pdf,.dox,.html,.py,.java"></td>
+       <!-- 
+        .pdf
+        .dox
+        .py
+        .java
+     -->
+        </fieldset>
+
+    
+     </table>
+     
+    </form>
+    </center>
+    
+
+                
+            
+    
+    </table>
+    </fieldset>
+     </form>
+     </center>
+
+
+    
+    
+
+</body>
+</html>
+     
